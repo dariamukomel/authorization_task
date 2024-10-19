@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(src/assets/Inter-Regular.ttf);
+  }
+
+.section{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+    left: 20vw;
+    width: 25vw;
+    gap: 15px;
+    
+}
+.enter-title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #141C24;
+    margin: 0;
+}
+.text{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 13px;
+    color: #141C24;
+    margin: 0;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.input{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    color: #141C24;
+
+    position: relative;
+    width: 100%;
+    height: 30px;
+
+    border-radius: 5px;
+    border: 1px solid #141C24;
+    padding-left: 10px;
+    
+
+}
+.error-message{
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 400;
+    color: red;
+    margin: 0;
+}
+
+.timer-text{
+    font-family: Inter;
+    color: dimgray;
+    font-size: 11px;
+    margin: 0;
+}
+
+.blockOfButtons{
+    position: relative;
+    width: 80%;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    align-items: center;
+}
+
+.button{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+
+    position: relative;
+    width: 100%;
+    height: 40px;
+
+    background-color: #1975FF;
+    border-radius: 10px;
+    border: none;
+}
+
+.button:hover {
+    transform: scale(0.95);
+}
+
+.retry{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    color: #141C24;
+    cursor: pointer;
+    margin: 0;
+}
+.retry:hover{
+    text-decoration: underline;
+}
